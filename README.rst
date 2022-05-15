@@ -15,7 +15,7 @@ However, there is one centralised element: the root of trust at the top of the h
 
 The approach is described in the following figure.
 
-.. figure:: images/SafeIsland_TrustFramework.png
+.. figure:: images/TrustFramework.png
    :width: 80 %
    :alt: The Trust Framework in the blockchain
 
@@ -85,7 +85,7 @@ AlaPublicCredentialResolver.sol
 AlaTSPResolver.sol
     Registers and resolves special entities. It is a specialisation of ``AlaDIDPublicEntityResolver`` in the sense
     that it is intended for registration of the Trust Service Providers (TSPs), implementing the EU TSP List of Lists
-    on the blockchian. It contains the associated X509 certificates for each TSP, making it very efficient to verify
+    on the blockchain. It contains the associated X509 certificates for each TSP, making it very efficient to verify
     digital signatures existing off-chain.
 
 NameResolver.sol
